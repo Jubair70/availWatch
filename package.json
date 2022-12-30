@@ -1,0 +1,29 @@
+{
+  "name": "availwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jubair70/availWatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jubair70/availWatch/issues"
+  },
+  "homepage": "https://github.com/Jubair70/availWatch#readme",
+  "devDependencies": {
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {}
+}
