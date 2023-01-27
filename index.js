@@ -15,10 +15,9 @@ const data = require('./lib/data');
 const app = {};
 
 // testing file system
-data.create('test', 'newFile',{'name': 'Bangladesh','language':'Bangla'},(err)=>{
-    console.log(`error was`, err);
+data.delete('test', 'newFile', (err) => {
+    console.log(err);
 });
-
 // configuration
 app.config = {
     port: 3000,
